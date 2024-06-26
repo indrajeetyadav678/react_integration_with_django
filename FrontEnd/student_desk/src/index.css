@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.color1{
+  color: #01204E;
+}
+.color2{
+  color: #028391;
+}
+.color3{
+  color: #F6DCAC;
+}
+.color4{
+  color: #FEAE6F;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#Navbar_container{
+  width: 100%;
+  height: 60px;
+  /* background-color: rgb(38, 38, 125); */
+  background-color: #01204E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding:0px 15px  0px 15px;
+}
+#Title{
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.titlebtn{
+  font-size: 20px;
+  /* color: aliceblue; */
+  /* color: #F6DCAC; */
+  color: #FEAE6F;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+#Navbar{
+  width: 800px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.btn1{
+  /* color: aliceblue; */
+  /* color: #F6DCAC; */
+  color: #FEAE6F;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* font-size: 20px; */
+}
+#profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#footer{
+  width: 100%;
+  min-height: 120px;
+  max-height: auto;
+  padding: 15px 10px;
+  background-color:#028391;
+    color: #FEAE6F;
+}
+
+/* ============== Student form ===================== */
+/* src/StudentForm.css */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* -------------- registration form ------------------------ */
+
+/* styles.css */
+#body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ==================== table )Home page ================= */
+
+#table_body{
+  width: 100%;
+  height: auto;
+  background-color:#F6DCAC; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+#table_body #table{
+  width: 100%;
+  height: auto;
+}
+#data_table{
+  width: 100%;
+  height: 40px;
+}
+#data_table td{
+  /* width: 250px; */
+  height: 40px;
+  border: 2px solid black;
+  text-align: center;
+}
+#studenthata_heading tr th{
+  width: 200px;
+ height: 50px;
+ text-align: center;
+ border: 2px solid black;
+ background-color: #028391;
+}
+#studenthata_heading tr th button{
+  width: 200px;
+ height: 50px;
+ text-align: center;
+ border: 2px solid black;
+ background-color: #028391;
+}
+
+#updatedataform{
+  display: none;
+}
+
+#Adddatabtn{
+  width:150px; 
+}
+
+/* ===================== Student Detail ============================ */
+
+#studentdetail_body{
+  width:100%;
+  min-height: 80vh;
+  max-height: auto;
+  padding: 30px 20px;
+}
+
+#detailnavbar li{
+   margin-left: 25px;
+}
+#detailnavbar li a{
+  text-decoration: none;
+}
